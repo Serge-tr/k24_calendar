@@ -1,0 +1,48 @@
+.clndr-main{
+	width: 850px;
+	font-family: "PT Sans Caption", sans-serif;
+}
+.month{
+	width: 850px;
+	height: 45px;
+	background: #ddd;
+	text-align: center;
+	line-height: 2.3;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+table {
+	width: 850px;
+	font-size: 18px;
+	background: #ddd;
+	border-collapse: collapse;
+	color: #353535;
+}
+.days{
+	background: #fff;
+	text-transform: uppercase;
+	border: none;
+}
+.days td{
+	padding: 8px;
+	cursor: auto;
+}
+.days td:hover{
+	background: #fff;
+	color: #353535;
+	font-weight: normal;
+}
+td{
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	text-align: center;
+	padding: 15px;
+	cursor: pointer;
+}
+td:hover{
+	background: #fff;
+	font-weight: bold;
+}
+.may,.july{
+	color: #b9b9b9;
+}
